@@ -44,7 +44,7 @@
 }
 
 @theme {
-  --font-sans: 'Aboreto', 'sans-serif';
+  --font-aboreto: 'Aboreto', 'sans-serif';
 }
 
 /* The fade-in animation for images (can also be here or in PhotoCard.astro's <style>) */
