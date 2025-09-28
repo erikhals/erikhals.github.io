@@ -1,0 +1,116 @@
+[
+    {
+        "src": "assets/portraits/_1020841.jpg",
+        "alt": "a portrait of a young woman pulling her hand through her hair",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "assets/portraits/_1020852.jpg",
+        "alt": "a portrait of a young woman looking out to the side",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "assets/portraits/_1020919.jpg",
+        "alt": "a portrait of a young woman with dark hair",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+    {
+        "src": "assets/portraits/_1020569-Edit.jpg",
+        "alt": "a portrait of a young woman with green earrings",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+    {
+        "src": "assets/portraits/_1020615-Edit.jpg",
+        "alt": "a portrait of a young woman with green earrings",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "assets/portraits/_1020649-Edit.jpg",
+        "alt": "a portrait of a young woman with green earrings",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "assets/portraits/_1020953.jpg",
+        "alt": "a portrait of a young woman a feathery dress, hollywood style",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "assets/portraits/_1021008.jpg",
+        "alt": "a portrait of a young woman with feathery dress, hollywood style",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-3/4"
+    },
+    {
+        "src": "assets/portraits/P1000276.jpg",
+        "alt": "a portrait of a young man pulling his hand through his hair",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "assets/portraits/P1000291.jpg",
+        "alt": "a portrait of a young man looking out to the side",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+    {
+        "src": "assets/portraits/P1000280.jpg",
+        "alt": "a portrait of a young with dark hair",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "assets/portraits/BJORK-2713.jpg",
+        "alt": "a portrait of a young woman",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-2/4"
+    },
+    {
+        "src": "assets/portraits/BJORK-2700.jpg",
+        "alt": "a portrait of a young woman",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-2/4"
+    },
+    {
+        "src": "assets/portraits/_1020792.jpg",
+        "alt": "a portrait of a young woman",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-2/4"
+    },
+    {
+        "src": "assets/portraits/_1020800-Edit.jpg",
+        "alt": "a portrait of a young woman",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-2/4"
+    },
+    {
+        "src": "assets/portraits/P1100237.jpg",
+        "alt": "a man in a white suit with clown facepaint and messy hair sitting hunched forward smiling",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "assets/portraits/P1100222.jpg",
+        "alt": "a portrait of a man in a white suit with clown facepaint and messy hair smiling at the camera",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-3/4"
+    },
+    {
+        "src": "assets/portraits/ERI-2637.jpg",
+        "alt": "a portrait of a young woman",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+    {
+        "src": "assets/portraits/ERI-2685.jpg",
+        "alt": "a portrait of a young woman",
+        "fancyboxGroup": "gallery",
+        "widthClasses": "w-full md:w-1/2"
+    }
+]

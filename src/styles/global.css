@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+/* Custom utility classes, if not handled by Tailwind config */
+.tap-highlight-transparent {
+  -webkit-tap-highlight-color: transparent;
+}
+.smooth-edges {
+  -webkit-backface-visibility: hidden;
+}
+
+/* Custom animations */
+.animate-wave {
+  animation-name: wave;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+@keyframes wave {
+  0% {
+    transform: rotate( 0.0deg)
+  }
+  10% {
+    transform: rotate(14.0deg)
+  }
+  20% {
+    transform: rotate(-8.0deg)
+  }
+  30% {
+    transform: rotate(14.0deg)
+  }
+  40% {
+    transform: rotate(-4.0deg)
+  }
+  50% {
+    transform: rotate(10.0deg)
+  }
+  60% {
+    transform: rotate( 0.0deg)
+  }
+  100% {
+    transform: rotate( 0.0deg)
+  }
+}
+
+@theme {
+  --font-sans: 'Aboreto', 'sans-serif';
+}
+
+/* The fade-in animation for images (can also be here or in PhotoCard.astro's <style>) */
+/* If you put it here, remove it from PhotoCard.astro */
+/*
+.animate-fade-in {
+  animation: fade-in 0.5s ease-out forwards;
+}
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+*/

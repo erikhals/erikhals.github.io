@@ -1,16 +1,17 @@
 ---
+// src/pages/index.astro
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Header from '../components/Header.astro'; // Your new Header component
+import Gallery from '../components/Gallery.astro'; // Your new Gallery component
+import Footer from '../components/Footer.astro'; // Your new Footer component
 
+import portraits from '../data/portraits.json'; // Import your portrait images data
 ---
+<BaseLayout title="Erik Kobro - Portfolio">
+  <Header currentPath={Astro.url.pathname} /> 
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+  {/* Main content for the page */}
+  <Gallery images={portraits} />
+
+  <Footer />
+</BaseLayout>

@@ -1,0 +1,102 @@
+---
+// src/layouts/BaseLayout.astro
+import '../styles/global.css';
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "This is Erik Kobro – taking photographs of people in all kinds of lighting" } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico" />
+
+  <!-- Tailwind CSS: Handled by Astro's integration. No dist/output.css needed here. -->
+
+  <!-- Alpine.js -->
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  <!-- Start - Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Aboreto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- End - Fonts -->
+
+  <!-- Fancybox CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+  <!-- Global Styles (for fade-in animation) -->
+  <style is:global>
+    .animate-fade-in {
+      animation: fade-in 0.5s ease-out forwards;
+    }
+    @keyframes fade-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    /* Styles for the body, which initially has opacity-0 */
+    body.animate-on-load {
+      opacity: 0;
+      animation: fade-in-body 0.5s ease-out forwards;
+    }
+    @keyframes fade-in-body {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+  </style>
+  <!-- IMPORTANT: Load Fancybox JS library here, without type="module" -->
+  <!-- 'is:inline' ensures Astro embeds it directly, preventing bundling issues -->
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js" is:inline></script>
+</head>
+<body
+  class="dark:bg-black bg-white h-screen text-black dark:text-white px-5 md:px-20 animate-fade-in-body transition duration-500">
+  <div class="container mx-auto">
+    <slot name="header" /> {/* Named slot for header */}
+  </div>
+
+  <main class="container mx-auto">
+    <slot /> {/* Default slot for page content */}
+  </main>
+
+  <div class="container mx-auto">
+    <slot name="footer" /> {/* Named slot for footer */}
+  </div>
+<!-- Fancybox initialization script -->
+  <!-- This script must run *after* the Fancybox library script has loaded and executed. -->
+  <!-- Placing it before </body> is a good practice for DOM interaction. -->
+  <script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Fancybox should now be available globally as window.Fancybox
+      if (typeof window.Fancybox !== 'undefined') {
+          window.Fancybox.bind("[data-fancybox]", {
+            Toolbar: {
+                display: {
+                    left: ["infobar"],
+                    middle: [
+                        "zoomIn",
+                        "zoomOut",
+                        "toggleZoom",
+                        "rotate",
+                        "flipX",
+                        "flipY",
+                    ],
+                    right: ["close"],
+                },
+            },
+          });
+      } else {
+          console.error("Fancybox not found. Is fancybox.umd.js loaded correctly?");
+      }
+    });
+  </script>
+  
+</body>
+</html>

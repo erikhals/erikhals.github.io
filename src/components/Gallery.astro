@@ -1,0 +1,29 @@
+---
+// src/components/Gallery.astro
+import PhotoCard from './PhotoCard.astro';
+
+export interface Props {
+  images: {
+    src: string;
+    alt: string;
+    fancyboxGroup?: string;
+    widthClasses?: string;
+  }[];
+}
+
+const { images } = Astro.props;
+---
+<section class="text-neutral-700">
+  <div class="container w-full">
+    <div class="flex flex-wrap w-full">
+      {images.map((image) => (
+        <PhotoCard
+          src={image.src}
+          alt={image.alt}
+          fancyboxGroup={image.fancyboxGroup}
+          widthClasses={image.widthClasses}
+        />
+      ))}
+    </div>
+  </div>
+</section>

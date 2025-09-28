@@ -1,0 +1,24 @@
+---
+// src/components/PhotoCard.astro
+export interface Props {
+  src: string;
+  alt: string;
+  fancyboxGroup?: string;
+  widthClasses?: string;
+}
+
+const { src, alt, fancyboxGroup = "gallery", widthClasses = "w-full md:w-1/2" } = Astro.props;
+---
+<div class={`p-1 ${widthClasses}`}>
+  <div class="overflow-hidden h-full w-full">
+    <a href={src} data-fancybox={fancyboxGroup}>
+      <img
+        alt={alt}
+        class="block h-full w-full object-cover object-center opacity-0 animate-fade-in transition duration-500 transform scale-100 hover:scale-110"
+        src={src}
+        loading="lazy"
+        decoding="async"
+      />
+    </a>
+  </div>
+</div>
