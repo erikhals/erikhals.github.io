@@ -65,17 +65,17 @@
         "fancyboxGroup": "gallery",
         "widthClasses": "w-full md:w-1/4"
     },
-    {
-        "src": "assets/portraits/BJORK-2713.jpg",
+{
+        "src": "assets/portraits/ERI-2637.jpg",
         "alt": "a portrait of a young woman",
         "fancyboxGroup": "gallery",
-        "widthClasses": "w-full md:w-2/4"
+        "widthClasses": "w-full md:w-1/2"
     },
     {
-        "src": "assets/portraits/BJORK-2700.jpg",
+        "src": "assets/portraits/ERI-2685.jpg",
         "alt": "a portrait of a young woman",
         "fancyboxGroup": "gallery",
-        "widthClasses": "w-full md:w-2/4"
+        "widthClasses": "w-full md:w-1/2"
     },
     {
         "src": "assets/portraits/_1020792.jpg",
@@ -102,15 +102,16 @@
         "widthClasses": "w-full md:w-3/4"
     },
     {
-        "src": "assets/portraits/ERI-2637.jpg",
+        "src": "assets/portraits/BJORK-2713.jpg",
         "alt": "a portrait of a young woman",
         "fancyboxGroup": "gallery",
-        "widthClasses": "w-full md:w-1/2"
+        "widthClasses": "w-full md:w-2/4"
     },
     {
-        "src": "assets/portraits/ERI-2685.jpg",
+        "src": "assets/portraits/BJORK-2700.jpg",
         "alt": "a portrait of a young woman",
         "fancyboxGroup": "gallery",
-        "widthClasses": "w-full md:w-1/2"
+        "widthClasses": "w-full md:w-2/4"
     }
+
 ]

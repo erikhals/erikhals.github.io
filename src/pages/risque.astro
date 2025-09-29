@@ -5,13 +5,13 @@ import Header from '../components/Header.astro'; // Your new Header component
 import Gallery from '../components/Gallery.astro'; // Your new Gallery component
 import Footer from '../components/Footer.astro'; // Your new Footer component
 
-import art from '../data/risque.json'; // Import your portrait images data
+import risque from '../data/risque.json'; // Import your portrait images data
 ---
 <BaseLayout title="Erik Kobro - Portfolio">
   <Header currentPath={Astro.url.pathname} />
 
   {/* Main content for the page */}
-  <Gallery images={art} />
+  <Gallery images={risque} />
 
   <Footer />
 </BaseLayout>

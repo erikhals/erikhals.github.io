@@ -5,6 +5,7 @@
         "fancyboxGroup": "art-gallery",
         "widthClasses": "w-full"
     },
+   
     {
         "src": "/assets/risque/_ERI3322-Edit.jpg",
         "alt": "the back of a rim lit female body stretching graciously towards the ceiling",
@@ -14,6 +15,18 @@
     {
         "src": "/assets/risque/_ERI3330-Edit.jpg",
         "alt": "a side view of a woman posing graciously",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+     {
+        "src": "/assets/risque/_ERI7047-Edit.jpg",
+        "alt": "a nude young woman sitting hunched by the lake looking at the camera",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+    {
+        "src": "/assets/risque/_ERI3340-Edit.jpg",
+        "alt": "a nude woman in a jungle looking behind her at the camera",
         "fancyboxGroup": "art-gallery",
         "widthClasses": "w-full md:w-1/2"
     },
@@ -40,41 +53,7 @@
         "alt": "a nude woman leaning onto a tree",
         "fancyboxGroup": "art-gallery",
         "widthClasses": "w-full md:w-1/2"
-    },
-    {
-        "src": "/assets/risque/_ERI7047-Edit.jpg",
-        "alt": "a nude young woman sitting hunched by the lake looking at the camera",
-        "fancyboxGroup": "art-gallery",
-        "widthClasses": "w-full md:w-1/2"
-    },
-    {
-        "src": "/assets/risque/_ERI3340-Edit.jpg",
-        "alt": "a nude woman in a jungle looking behind her at the camera",
-        "fancyboxGroup": "art-gallery",
-        "widthClasses": "w-full md:w-1/2"
-    },
-    {
-        "src": "/assets/risque/3073-Edit.jpg",
-        "alt": "a young woman in a golden dress with fireworks behind her",
-        "fancyboxGroup": "art-gallery",
-        "widthClasses": "w-full md:w-1/2"
-    },
-     {
-        "src": "/assets/risque/_ERI3077-Edit.jpg",
-        "alt": "a woman in a golden dress with fireworks behind her",
-        "fancyboxGroup": "art-gallery",
-        "widthClasses": "w-full md:w-1/2"
-    },
-    {
-        "src": "/assets/risque/_ERI6850.jpg",
-        "alt": "a nude woman alone on the forest floor",
-        "fancyboxGroup": "art-gallery",
-        "widthClasses": "w-full md:w-1/2"
-    },
-    {
-        "src": "/assets/risque/_ERI7088-Edit.jpg",
-        "alt": "the back of a young nude woman on a grassy patch by a forest lake",
-        "fancyboxGroup": "art-gallery",
-        "widthClasses": "w-full md:w-1/2"
     }
+    
+  
 ]
