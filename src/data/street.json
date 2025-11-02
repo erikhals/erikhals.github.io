@@ -1,0 +1,100 @@
+[
+     {
+        "src": "/assets/street/_1031524.jpg",
+        "alt": "three men looking out at sea",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full"
+    },
+    
+   
+   
+    
+    {
+        "src": "/assets/street/_1030751.jpg",
+        "alt": "a girl teaching a dog to sit",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+    {
+        "src": "/assets/street/_1030871.jpg",
+        "alt": "an elderly couple on a bench",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/2"
+    }
+    ,
+    {
+        "src": "/assets/street/_1021638.jpg",
+        "alt": "a woman walking down some stairs from Radhuspladsen",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+    {
+        "src": "/assets/street/_1021548.jpg",
+        "alt": "woman on a bridge in deep thought",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+   
+     {
+        "src": "/assets/street/_1031512.jpg",
+        "alt": "a woman and a man sitting on a bench looking out at the ocean",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full"
+    },
+    {
+        "src": "/assets/street/000043740012.jpg",
+        "alt": "a woman looking at munich tv tower",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "/assets/street/000043740026.jpg",
+        "alt": "a guy passing a snogging couple",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "/assets/street/EH-Street-0467.jpg",
+        "alt": "a woman with sass walking with her bike",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "/assets/street/_1043140.jpg",
+        "alt": "a girl standing a winding staircase",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/4"
+    },
+    {
+        "src": "/assets/street/_ERI4140.jpg",
+        "alt": "oerestedverket at night",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full"
+    },
+    {
+        "src": "/assets/street/_1030408-Edit.jpg",
+        "alt": "a man taking a picture of a snowman",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+    {
+        "src": "/assets/street/_1030845-Edit.jpg",
+        "alt": "a woman taking picture of a dog",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+    {
+        "src": "/assets/street/_1030838-Edit.jpg",
+        "alt": "a couple sitting in the sun by the canal",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/2"
+    },
+    {
+        "src": "/assets/street/_1030400-Edit.jpg",
+        "alt": "a couple on a winter stroll",
+        "fancyboxGroup": "art-gallery",
+        "widthClasses": "w-full md:w-1/2"
+    }
+    
+  
+]
